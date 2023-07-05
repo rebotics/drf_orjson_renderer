@@ -28,7 +28,7 @@ setup(
     packages=["drf_orjson_renderer"],
     license="MIT",
     install_requires=[
-        "django>=3.2",
+        "django>=3.2,<4.3",
         "djangorestframework",
         "orjson>=3.3.0",
     ],
